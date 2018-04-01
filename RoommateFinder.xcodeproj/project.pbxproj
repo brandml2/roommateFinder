@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		160986A720700B31002ACFA3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160986A620700B31002ACFA3 /* User.swift */; };
+		160986A92070A807002ACFA3 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 160986A82070A807002ACFA3 /* Logo.png */; };
+		16529839206FF55A00D5FD55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16529838206FF55A00D5FD55 /* AppDelegate.swift */; };
+		1652983B206FF55A00D5FD55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652983A206FF55A00D5FD55 /* ViewController.swift */; };
+		1652983E206FF55A00D5FD55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1652983C206FF55A00D5FD55 /* Main.storyboard */; };
+		16529840206FF55A00D5FD55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1652983F206FF55A00D5FD55 /* Assets.xcassets */; };
+		16529843206FF55A00D5FD55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16529841206FF55A00D5FD55 /* LaunchScreen.storyboard */; };
+		1652984E206FF55A00D5FD55 /* RoommateFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652984D206FF55A00D5FD55 /* RoommateFinderTests.swift */; };
+		16529859206FF55B00D5FD55 /* RoommateFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16529858206FF55B00D5FD55 /* RoommateFinderUITests.swift */; };
+		16529867206FF77300D5FD55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16529866206FF77300D5FD55 /* GoogleService-Info.plist */; };
+		16529869206FF80500D5FD55 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 16529868206FF80500D5FD55 /* Podfile */; };
+		16E08514B998BC72A7A480E7 /* Pods_RoommateFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093EFA97288FD1EE7384F41D /* Pods_RoommateFinder.framework */; };
+		B57B9EC4C329C71334316E33 /* Pods_RoommateFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CDB190E270E0120B5F0332 /* Pods_RoommateFinderTests.framework */; };
+		FC62A2BCCE3F7E048205673D /* Pods_RoommateFinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B907C5FA8D91E8847B94C7 /* Pods_RoommateFinderUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1652984A206FF55A00D5FD55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1652982D206FF55A00D5FD55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16529834206FF55A00D5FD55;
+			remoteInfo = RoommateFinder;
+		};
+		16529855206FF55B00D5FD55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1652982D206FF55A00D5FD55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16529834206FF55A00D5FD55;
+			remoteInfo = RoommateFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B0B6F7B413490FA15F8D08 /* Pods-RoommateFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoommateFinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoommateFinderUITests/Pods-RoommateFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		093EFA97288FD1EE7384F41D /* Pods_RoommateFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoommateFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		160986A620700B31002ACFA3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		160986A82070A807002ACFA3 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		16529835206FF55A00D5FD55 /* RoommateFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoommateFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16529838206FF55A00D5FD55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1652983A206FF55A00D5FD55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1652983D206FF55A00D5FD55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1652983F206FF55A00D5FD55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16529842206FF55A00D5FD55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16529844206FF55A00D5FD55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16529849206FF55A00D5FD55 /* RoommateFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoommateFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1652984D206FF55A00D5FD55 /* RoommateFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoommateFinderTests.swift; sourceTree = "<group>"; };
+		1652984F206FF55A00D5FD55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16529854206FF55B00D5FD55 /* RoommateFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoommateFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16529858206FF55B00D5FD55 /* RoommateFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoommateFinderUITests.swift; sourceTree = "<group>"; };
+		1652985A206FF55B00D5FD55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16529866206FF77300D5FD55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		16529868206FF80500D5FD55 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		47CDB190E270E0120B5F0332 /* Pods_RoommateFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoommateFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3F355488259500200F7AB3 /* Pods-RoommateFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoommateFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoommateFinder/Pods-RoommateFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		83B25FA0820B72CB41AD5180 /* Pods-RoommateFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoommateFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoommateFinderTests/Pods-RoommateFinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		90E069274277939576E7A2EE /* Pods-RoommateFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoommateFinderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoommateFinderUITests/Pods-RoommateFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C0B907C5FA8D91E8847B94C7 /* Pods_RoommateFinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoommateFinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E62F75E0E3E5E3A79AF5EC /* Pods-RoommateFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoommateFinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoommateFinderTests/Pods-RoommateFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1ACFFA98801D4868E869841 /* Pods-RoommateFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoommateFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoommateFinder/Pods-RoommateFinder.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16529832206FF55A00D5FD55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E08514B998BC72A7A480E7 /* Pods_RoommateFinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16529846206FF55A00D5FD55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57B9EC4C329C71334316E33 /* Pods_RoommateFinderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16529851206FF55B00D5FD55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC62A2BCCE3F7E048205673D /* Pods_RoommateFinderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1652982C206FF55A00D5FD55 = {
+			isa = PBXGroup;
+			children = (
+				16529866206FF77300D5FD55 /* GoogleService-Info.plist */,
+				16529868206FF80500D5FD55 /* Podfile */,
+				16529837206FF55A00D5FD55 /* RoommateFinder */,
+				1652984C206FF55A00D5FD55 /* RoommateFinderTests */,
+				16529857206FF55B00D5FD55 /* RoommateFinderUITests */,
+				16529836206FF55A00D5FD55 /* Products */,
+				84E9C32162F3A8FA442E8BAB /* Pods */,
+				9DBACD06FEBFADF3CCDAD3ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16529836206FF55A00D5FD55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16529835206FF55A00D5FD55 /* RoommateFinder.app */,
+				16529849206FF55A00D5FD55 /* RoommateFinderTests.xctest */,
+				16529854206FF55B00D5FD55 /* RoommateFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16529837206FF55A00D5FD55 /* RoommateFinder */ = {
+			isa = PBXGroup;
+			children = (
+				16529838206FF55A00D5FD55 /* AppDelegate.swift */,
+				1652983A206FF55A00D5FD55 /* ViewController.swift */,
+				1652983C206FF55A00D5FD55 /* Main.storyboard */,
+				160986A82070A807002ACFA3 /* Logo.png */,
+				1652983F206FF55A00D5FD55 /* Assets.xcassets */,
+				16529841206FF55A00D5FD55 /* LaunchScreen.storyboard */,
+				16529844206FF55A00D5FD55 /* Info.plist */,
+				160986A620700B31002ACFA3 /* User.swift */,
+			);
+			path = RoommateFinder;
+			sourceTree = "<group>";
+		};
+		1652984C206FF55A00D5FD55 /* RoommateFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				1652984D206FF55A00D5FD55 /* RoommateFinderTests.swift */,
+				1652984F206FF55A00D5FD55 /* Info.plist */,
+			);
+			path = RoommateFinderTests;
+			sourceTree = "<group>";
+		};
+		16529857206FF55B00D5FD55 /* RoommateFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16529858206FF55B00D5FD55 /* RoommateFinderUITests.swift */,
+				1652985A206FF55B00D5FD55 /* Info.plist */,
+			);
+			path = RoommateFinderUITests;
+			sourceTree = "<group>";
+		};
+		84E9C32162F3A8FA442E8BAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E3F355488259500200F7AB3 /* Pods-RoommateFinder.debug.xcconfig */,
+				C1ACFFA98801D4868E869841 /* Pods-RoommateFinder.release.xcconfig */,
+				C0E62F75E0E3E5E3A79AF5EC /* Pods-RoommateFinderTests.debug.xcconfig */,
+				83B25FA0820B72CB41AD5180 /* Pods-RoommateFinderTests.release.xcconfig */,
+				06B0B6F7B413490FA15F8D08 /* Pods-RoommateFinderUITests.debug.xcconfig */,
+				90E069274277939576E7A2EE /* Pods-RoommateFinderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9DBACD06FEBFADF3CCDAD3ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				093EFA97288FD1EE7384F41D /* Pods_RoommateFinder.framework */,
+				47CDB190E270E0120B5F0332 /* Pods_RoommateFinderTests.framework */,
+				C0B907C5FA8D91E8847B94C7 /* Pods_RoommateFinderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16529834206FF55A00D5FD55 /* RoommateFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1652985D206FF55B00D5FD55 /* Build configuration list for PBXNativeTarget "RoommateFinder" */;
+			buildPhases = (
+				3C966309C052E9A9B60E40AD /* [CP] Check Pods Manifest.lock */,
+				16529831206FF55A00D5FD55 /* Sources */,
+				16529832206FF55A00D5FD55 /* Frameworks */,
+				16529833206FF55A00D5FD55 /* Resources */,
+				1F74233E531BA95F397274F7 /* [CP] Embed Pods Frameworks */,
+				D8A13A6267BEBA9A9F558D08 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoommateFinder;
+			productName = RoommateFinder;
+			productReference = 16529835206FF55A00D5FD55 /* RoommateFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16529848206FF55A00D5FD55 /* RoommateFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16529860206FF55B00D5FD55 /* Build configuration list for PBXNativeTarget "RoommateFinderTests" */;
+			buildPhases = (
+				E85964688405899A5440666B /* [CP] Check Pods Manifest.lock */,
+				16529845206FF55A00D5FD55 /* Sources */,
+				16529846206FF55A00D5FD55 /* Frameworks */,
+				16529847206FF55A00D5FD55 /* Resources */,
+				1DA769C3389DC60B101B945B /* [CP] Embed Pods Frameworks */,
+				9BDD01ADFD4B6E6AD6224F8E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1652984B206FF55A00D5FD55 /* PBXTargetDependency */,
+			);
+			name = RoommateFinderTests;
+			productName = RoommateFinderTests;
+			productReference = 16529849206FF55A00D5FD55 /* RoommateFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16529853206FF55B00D5FD55 /* RoommateFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16529863206FF55B00D5FD55 /* Build configuration list for PBXNativeTarget "RoommateFinderUITests" */;
+			buildPhases = (
+				C8D1C49F5E42D5DC22B90868 /* [CP] Check Pods Manifest.lock */,
+				16529850206FF55B00D5FD55 /* Sources */,
+				16529851206FF55B00D5FD55 /* Frameworks */,
+				16529852206FF55B00D5FD55 /* Resources */,
+				9613E0E2A42BF6533F134F9D /* [CP] Embed Pods Frameworks */,
+				3D761BE5D98BDCF1B4825C91 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16529856206FF55B00D5FD55 /* PBXTargetDependency */,
+			);
+			name = RoommateFinderUITests;
+			productName = RoommateFinderUITests;
+			productReference = 16529854206FF55B00D5FD55 /* RoommateFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1652982D206FF55A00D5FD55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Brandon Lee, Harshil Shah, Kimmie Tran";
+				TargetAttributes = {
+					16529834206FF55A00D5FD55 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					16529848206FF55A00D5FD55 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 16529834206FF55A00D5FD55;
+					};
+					16529853206FF55B00D5FD55 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 16529834206FF55A00D5FD55;
+					};
+				};
+			};
+			buildConfigurationList = 16529830206FF55A00D5FD55 /* Build configuration list for PBXProject "RoommateFinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1652982C206FF55A00D5FD55;
+			productRefGroup = 16529836206FF55A00D5FD55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16529834206FF55A00D5FD55 /* RoommateFinder */,
+				16529848206FF55A00D5FD55 /* RoommateFinderTests */,
+				16529853206FF55B00D5FD55 /* RoommateFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16529833206FF55A00D5FD55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16529869206FF80500D5FD55 /* Podfile in Resources */,
+				16529843206FF55A00D5FD55 /* LaunchScreen.storyboard in Resources */,
+				160986A92070A807002ACFA3 /* Logo.png in Resources */,
+				16529867206FF77300D5FD55 /* GoogleService-Info.plist in Resources */,
+				16529840206FF55A00D5FD55 /* Assets.xcassets in Resources */,
+				1652983E206FF55A00D5FD55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16529847206FF55A00D5FD55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16529852206FF55B00D5FD55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DA769C3389DC60B101B945B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoommateFinderTests/Pods-RoommateFinderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F74233E531BA95F397274F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RoommateFinder/Pods-RoommateFinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoommateFinder/Pods-RoommateFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C966309C052E9A9B60E40AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoommateFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D761BE5D98BDCF1B4825C91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoommateFinderUITests/Pods-RoommateFinderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9613E0E2A42BF6533F134F9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoommateFinderUITests/Pods-RoommateFinderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BDD01ADFD4B6E6AD6224F8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoommateFinderTests/Pods-RoommateFinderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8D1C49F5E42D5DC22B90868 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoommateFinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8A13A6267BEBA9A9F558D08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoommateFinder/Pods-RoommateFinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E85964688405899A5440666B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoommateFinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16529831206FF55A00D5FD55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1652983B206FF55A00D5FD55 /* ViewController.swift in Sources */,
+				16529839206FF55A00D5FD55 /* AppDelegate.swift in Sources */,
+				160986A720700B31002ACFA3 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16529845206FF55A00D5FD55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1652984E206FF55A00D5FD55 /* RoommateFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16529850206FF55B00D5FD55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16529859206FF55B00D5FD55 /* RoommateFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1652984B206FF55A00D5FD55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16529834206FF55A00D5FD55 /* RoommateFinder */;
+			targetProxy = 1652984A206FF55A00D5FD55 /* PBXContainerItemProxy */;
+		};
+		16529856206FF55B00D5FD55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16529834206FF55A00D5FD55 /* RoommateFinder */;
+			targetProxy = 16529855206FF55B00D5FD55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1652983C206FF55A00D5FD55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1652983D206FF55A00D5FD55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16529841206FF55A00D5FD55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16529842206FF55A00D5FD55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1652985B206FF55B00D5FD55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1652985C206FF55B00D5FD55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1652985E206FF55B00D5FD55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E3F355488259500200F7AB3 /* Pods-RoommateFinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H8ZGVDB64;
+				INFOPLIST_FILE = RoommateFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Brandon.RoommateFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1652985F206FF55B00D5FD55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1ACFFA98801D4868E869841 /* Pods-RoommateFinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H8ZGVDB64;
+				INFOPLIST_FILE = RoommateFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Brandon.RoommateFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16529861206FF55B00D5FD55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0E62F75E0E3E5E3A79AF5EC /* Pods-RoommateFinderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoommateFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Brandon.RoommateFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoommateFinder.app/RoommateFinder";
+			};
+			name = Debug;
+		};
+		16529862206FF55B00D5FD55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83B25FA0820B72CB41AD5180 /* Pods-RoommateFinderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoommateFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Brandon.RoommateFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoommateFinder.app/RoommateFinder";
+			};
+			name = Release;
+		};
+		16529864206FF55B00D5FD55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B0B6F7B413490FA15F8D08 /* Pods-RoommateFinderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoommateFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Brandon.RoommateFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoommateFinder;
+			};
+			name = Debug;
+		};
+		16529865206FF55B00D5FD55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E069274277939576E7A2EE /* Pods-RoommateFinderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoommateFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Brandon.RoommateFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoommateFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16529830206FF55A00D5FD55 /* Build configuration list for PBXProject "RoommateFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1652985B206FF55B00D5FD55 /* Debug */,
+				1652985C206FF55B00D5FD55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1652985D206FF55B00D5FD55 /* Build configuration list for PBXNativeTarget "RoommateFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1652985E206FF55B00D5FD55 /* Debug */,
+				1652985F206FF55B00D5FD55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16529860206FF55B00D5FD55 /* Build configuration list for PBXNativeTarget "RoommateFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16529861206FF55B00D5FD55 /* Debug */,
+				16529862206FF55B00D5FD55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16529863206FF55B00D5FD55 /* Build configuration list for PBXNativeTarget "RoommateFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16529864206FF55B00D5FD55 /* Debug */,
+				16529865206FF55B00D5FD55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1652982D206FF55A00D5FD55 /* Project object */;
+}
